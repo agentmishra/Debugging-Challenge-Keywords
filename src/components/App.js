@@ -8,7 +8,7 @@ const App = () => {
   
   
 
-  return (
+  render() return (
     <div className="ball">
       <h1 className="count" ondoubleclick={(this) => { alert('cant edit it') }}>{count}</h1>
       <button className="increment-button" onclick={(this) => { setCount(count + 1) }}>Increment</button>
